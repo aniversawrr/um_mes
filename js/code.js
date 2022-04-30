@@ -14,5 +14,5 @@ function remove_acento (verifi)
 }
 
 if (senha == remove_acento(this.verifi.toLowerCase())) {
-    window.location.href = "contador.html"
+    window.location.href = "presente.html"
 }
