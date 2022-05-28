@@ -3,6 +3,24 @@ body{
     text-align: center;
 }
 
+#dica{
+    float: right;
+    text-decoration: none;
+    color: #E1E1E1;
+}
+
+#dica:hover{
+    float: right;
+    text-decoration:dotted;
+    color: #A9A9A9;
+}
+
+#dica:visited{
+    float: right;
+    text-decoration:dotted;
+    color: #000;
+}
+
 h1{
     color: #012840;
 }
@@ -107,13 +125,14 @@ h1{
     animation: botao-escuro 0.2s;
     background: #012840;
     color: #F2F2F2;
-    display: block;
+    display: inline-block;
     width: 100px;
     text-transform: uppercase;
     padding: 7px;
     text-align: center;
     margin: 20px auto;
     cursor: pointer;
+    text-decoration: none;
 }
 
 #mais:hover{

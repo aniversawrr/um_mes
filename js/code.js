@@ -1,5 +1,5 @@
-var senha = ('nosso um mes')
-var verifi = prompt("A senha, por gentileza: ")
+var senha = ('nossos dois meses')
+var verifi = prompt("A senha mudou, agora nós estamos um mês a frente: ")
 
 function remove_acento (verifi)
 {       
